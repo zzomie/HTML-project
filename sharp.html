@@ -1,0 +1,241 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            J#
+        </title>
+    </head>
+
+<style>
+
+.naslovi{
+    font-family: Harrington;
+    font-size: 40px;
+    font-style: bold;
+    color: black;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px #004d00;
+    text-align: center;
+}
+
+body{
+    background-image: url('https://i.imgur.com/Y7xQyGB.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.levo{
+    font-size: 20px;
+    font-family: Harrington;
+    font-style: bold;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.tab{
+    background-color: #cccccc;	
+    display: inline-block;
+    border: 2px solid #808080;
+    border-radius: 50px;
+    cursor:pointer;
+    color:#001a00;
+    font-family:Harrington;
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:none;
+    padding: 20px;
+    position: fixed;
+}
+
+.tab:active {
+    position:relative;
+    top:1px;
+}
+
+.desno{
+    font-size: 20px;
+    font-family: Harrington;
+    font-style: bold;
+    color: black;
+   
+    text-align: right;
+    font-weight: bold;
+}
+
+.pad{
+    padding: 20px;
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Harrington;
+    font-style: bold;
+    color: black;
+    width: 300px;
+}
+
+.dugme {
+	background-color: #cccccc;	
+    display: inline-block;
+    border: 2px solid #808080;
+    border-radius: 50px;
+	cursor:pointer;
+	color:#001a00;
+	font-family:Harrington;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+    padding: 20px;
+    position: fixed;
+}
+
+.dugme:active {
+	position:relative;
+	top:1px;
+}
+
+.slika{
+    padding: 20px;
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Harrington;
+    font-style: bold;
+    color: black;
+    width: 800px;
+    align-content: left;
+}
+
+.liste{
+    position: relative;
+    left: 50px;
+    padding: 10px 100px;
+    background-color: #cccccc;
+    border: 2px solid #808080;
+    border-radius: 20px;
+    width: 500px;
+    text-align: center;
+    list-style: none;
+}
+
+.tekst{
+    font-size: 20px;
+    font-family: Harrington;
+    font-style: bold;
+    color: black;
+}
+
+</style>
+
+    <body>
+
+            <ul style="list-style: none;">
+                <li style="position: relative; left: 10px; width: 100px;"><a href="#" onclick='window.open("http://www.ftn.kg.ac.rs/");return false;' style="text-decoration: none;"><img src="https://i.imgur.com/AnNJRvd.png" width="100" height="100"></li>
+                <li class="tab" style="position: relative; left: 250px; top: -90px;"><a href="#" onclick='window.open("početna.html");return false;' style="text-decoration: none; color: #808080;">Početna strana</a></li>
+                <li class="tab" style="position: relative; left: 350px; top: -90px;"><a href="#" onclick='window.open("o meni.html");return false;' style="text-decoration: none; color: #808080;">O meni</a></li>
+                <li class="tab" style="position: relative; left: 450px; top: -90px;"><a href="#" onclick='window.open("sharp.html");return false;' style="text-decoration: none; color: #808080;">J#</a></li>
+                <li class="tab" style="position: relative; left: 550px; top: -90px;"><a href="#" onclick='window.open("nastava.html");return false;' style="text-decoration: none; color: #808080;">Online nastava</a></li>
+            </ul>
+
+                    <h1 class="naslovi">
+                        Visual J Sharp
+                    </h1>
+
+    <p style=" height: 0px;">
+            <img src="https://i.imgur.com/SyKEvFi.gif" width="100" height="100" style="position: relative; top: -100px; left: 950px;">
+    </p>
+
+    <p class="levo">
+    <u>Visual J#</u> <i>(poznatiji kao J#)</i> je set programskih alata koji dozvoljavaju korisnicima da koriste 
+    programski jezik Java za pisanje aplikacija, odnosno programa, koji će se pokretati na Microsoft .NET platformi* .<br>
+    Kako Microsoft ne podržava "Java Virtual Machine"* kao deo .NET-a, J# obezbeđuje programerima kojima je bliži koncept 
+    i sintaksa Jave da pišu i kompajluju program koji će se lako pokretati na .NET Framework-u.<br>
+    Izvorni kod je konvertovan u Microsoft Intermediate Language (MSIL)*, koji je ekvivalentan Javinom bajtkodu.
+    Program koji je već kompajlovan u Javinom bajtkodu može biti konvertovan u MSIL.
+    </p>
+    <br><br><br>
+
+<center>
+            <div class="tekst">
+
+                <li class="liste" style="background-color: #267326;">
+                    <b>Korišćenjem Visual J#, poznavaoci Jave mogu uraditi sledeće:</b>
+                </li>
+                <li class="liste">
+                    iskoriste znanje Java programiranja za razvoj .NET aplikacija
+                </li>
+                <li class="liste">
+                    podržava JDK 1.1.4 biblioteku i većinu JDK 1.2 biblioteka klase java.util
+                </li>
+                <li class="liste">
+                    koristi proširenja na programskom jeziku Java za svojstva i događaje
+                </li>
+                <li class="liste">
+                    pretvori Visual J++ projekte u J# pomoću Project Import Wizard-a
+                </li>
+                <li class="liste">
+                    kreira dokumentaciju zasnovanu na Javadoc
+                </li>
+                <li class="liste">
+                    omogući podršku apleta, poput modela primene J# Browser Controls
+                </li>
+        
+            </div>
+</center>
+        
+    <p style="position: relative; left: 420px; top: 115px; width: 0px;">
+            <img src="https://i.imgur.com/1MclLp1.gif" width="100" height="100">
+    </p>
+
+    <p class="desno">
+    Sa Visual J#, Microsoft uključuje njihove standardne biblioteke<br>
+    koje su ekvivalentne sa bibliotekama Java Development Kit-a*<br>
+    verzije 1.1.4. J# podržava funkcionalnost Visual J++ i Microsoft ekstenzija.<br> 
+    Kod pisan u J# imaće ekstenziju .jsl.
+    </p>
+
+                <br><br>
+
+            <div class="slika" style="position: absolute; left: 400px; height: 500px;">
+
+                <b>Kao primer za testiranje programa, prikazaću standardni ispis "Zdravo svete!".</b><br><br>
+
+                Ispis u konzoli<br>
+
+            <img src="https://i.imgur.com/sH6OIr2.jpg" style="border-radius: 20px;"><br><br>
+
+                Standardan ispis<br>
+
+            <img src="https://i.imgur.com/ZhDJdgD.jpg" style="border-radius:20px;">
+            <img src="https://i.imgur.com/8c7QHbj.jpg" style="border-radius: 20px; position: relative; left: 500px; top: -150px;">
+
+            </div>
+
+            <div class="pad" style="text-align: left;">
+
+            <b>Korisni linkovi</b><br>
+
+    <p><u>Učenje J#</u></p>  <a href="http://www.functionx.com/jsharp/Lesson01.htm" target="blank"><img src="https://i.imgur.com/ogNRfmv.gif" width="100" style="border:2px solid #808080;border-radius: 20px; position: relative; top -80px;"></a><br>                   
+    <p><u>Link za preuzimanje J#</u></p>   <a href="https://www.microsoft.com/en-us/download/details.aspx?id=4712" target="blank"><img src="https://i.imgur.com/o6XO7Nw.gif" width="100" style="border:2px solid #808080;border-radius: 20px;"></a><br>
+    <p><u>Više informacija o ovom jeziku</u></p>  <a href="https://docs.microsoft.com/en-us/previous-versions/msdn10/bb188593(v=msdn.10)" target="blank"><img src="https://i.imgur.com/rwLLInc.gif" width="100" style="border:2px solid #808080;border-radius: 20px;"></a><br>
+
+            </div>
+<hr style="color: black;">
+
+    <p class="tekst">
+        <b>Klik na pojam za više informacija</b><br>
+
+<a href="#" onclick='window.open("https://raf.edu.rs/citaliste/programiranje/4079-sta-je-xa-net-xa");return false;' style="text-decoration: none; color: black;">.NET platforma</a> <br>
+
+<a  href="#" onclick='window.open("https://sr.wikipedia.org/wiki/%D0%88%D0%B0%D0%B2%D0%B0_%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B5%D0%BB%D0%BD%D0%B0_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0" );return false;' style="text-decoration: none; color: black;">Java Virtual Machine</a><br>
+
+<a href="#" onclick='window.open("https://www.theserverside.com/definition/Java-Development-Kit-JDK");return false;' style="text-decoration: none; color: black;">Java Development Kit</a><br>
+
+<a href="#" onclick='window.open("https://en.wikipedia.org/wiki/Common_Intermediate_Language");return false;' style="text-decoration: none; color: black;">Microsoft Intermediate Language</a><br>
+    </p>
+    
+</body>
+</html>
